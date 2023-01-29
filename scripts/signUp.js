@@ -70,6 +70,9 @@ form.addEventListener('submit', (e) => {
 //    console.log("1")
 //    console.log(userData);
    form.reset();
+   if(userData.length > 0){
+    window.location.href = 'login.html'
+   }
 });
 //validate name
 function checkName(name){
