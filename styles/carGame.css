@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.top-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: aliceblue;
+    padding: 10px;
+}
+.top-bar .leaderboard a{
+    background-color: peru;
+    color:black;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.gameArea .startScreen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    background-color: black;
+    color: #fff;
+}
+
+.hide{
+    display: none !important;
+}
+.car{
+    position: absolute;
+    height: 100px;
+    width: 45px;
+    bottom: 0px;
+    margin: auto;
+}
+
+.gameScreen {
+    background-color: rgb(56, 54, 54);
+    height: 93.5vh;
+    position: relative;
+    /* overflow: hidden; */
+    margin: auto;
+    width: 400px;
+    
+}

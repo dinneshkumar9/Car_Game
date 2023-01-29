@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Game SignUp page</title>
+    <link rel="stylesheet" href="styles/signUp.css">
+</head>
+<body>
+    <!-- signup form -->
+    <div class="container">
+        <div class="form-style">
+        <form id="signUp_form">
+            <!-- Name -->
+            <label for="name">Name</label><br>
+            <input id="name" type="text" name="name"><br>
+            <p id="nameError" class="error-message"></p><br>
+            
+            <!-- Email -->
+            <label for="email">Email</label><br>
+            <input id="email" type="email" name="email" ><br>
+            <p id="emailError" class="error-message"></p><br>
+            
+            <!-- Password -->
+            <label for="password">Password</label><br>
+            <input id="password" type="password" name="password"><br>
+            <p id="passwordError" class="error-message"></p><br>
+            
+            <!-- Confirm Password -->
+            <label for="confirm_password">Confirm Password</label><br>
+            <input id="confirm_password" type="password" name="confirm_password"><br>
+            <p id="confirmPasswordError" class="error-message"></p><br>
+
+            <!-- Submit button -->
+            <button type="submit" id="btn">Sign Up</button><br><br>
+            <button type="button" id="login_btn">Log In</button>
+            <p id="signup-failed" class="error-message" style="text-align: center;"></p>
+        </form>
+        </div>
+    </div>
+
+    <script src="scripts\signUp.js"></script>
+</body>
+</html>
